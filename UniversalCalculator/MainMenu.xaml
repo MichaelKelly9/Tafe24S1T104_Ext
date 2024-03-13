@@ -24,7 +24,7 @@
 			<Image x:Name="abacusImage" Source="/Images/abacus.PNG" Stretch="None" HorizontalAlignment="Right" Margin="10"/>
 			<TextBlock x:Name="menuHeadingTextBlock" Text="Universal Calculator" FontSize="45" HorizontalAlignment="Center" Foreground="Blue" FontWeight="Bold"/>
 			<Button x:Name="mathsCalcButton" Content="Maths Calculator"/>
-			<Button x:Name="mortgageCalcButton" Content="Mortgage Calculator" />
+			<Button x:Name="mortgageCalcButton" Content="Mortgage Calculator" Click="MortgageCalcButton_Click" />
 			<Button x:Name="currecnyConvertButton" Content="Currency Calculator"/>
 			<Button x:Name="exitButton" Content="Exit"/>
 		</StackPanel>
