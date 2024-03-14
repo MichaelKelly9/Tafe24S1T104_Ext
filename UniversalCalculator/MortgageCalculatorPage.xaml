@@ -1,0 +1,59 @@
+﻿<Page
+    x:Class="Calculator.MortgageCalculatorPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Calculator"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+	<Grid>
+		<StackPanel VerticalAlignment="center">
+			<TextBlock Text="Mortgage Calculator"  Margin="100,10" FontSize="45" Foreground="Blue" FontWeight="Bold"/>
+
+			<StackPanel Orientation="Horizontal" Margin="100,10">
+				<!-- 2 line：Principal borrow -->
+
+				<TextBlock Text="Principal borrow $: "/>
+				<TextBox x:Name="PrincipalTextBox" Width="200" Margin="10,0,0,0"/>
+			</StackPanel>
+
+			<!-- 3 line：Years -->
+			<StackPanel Orientation="Horizontal" Margin="100,10">
+				<TextBlock Text="Years: "/>
+				<TextBox x:Name="YearsTextBox" Width="200" Margin="60,0,0,0"/>
+			</StackPanel>
+
+			<!-- 4 line：and Month -->
+			<StackPanel Orientation="Horizontal" Margin="100,10">
+				<TextBlock Text="and Month: "/>
+				<TextBox x:Name="MonthsTextBox" Width="200" Margin="20,0,0,0"/>
+			</StackPanel>
+
+			<!-- 5 line：Yearly Interest Rate -->
+			<StackPanel Orientation="Horizontal" Margin="100,10">
+				<TextBlock Text="Yearly Interest Rate: "/>
+				<TextBox x:Name="InterestRateTextBox" Width="200" Margin="0,0,0,0"/>
+			</StackPanel>
+
+			<!-- 6 line：Monthly Interest Rate -->
+			<StackPanel Orientation="Horizontal" Margin="100,10">
+				<TextBlock Text="Monthly Interest Rate: "/>
+				<TextBox x:Name="MonthlyInterestTextBox" Width="200" Margin="10,0,0,0" IsReadOnly="True"/>
+			</StackPanel>
+
+			<!--  7 line：Monthly Repayment -->
+			<StackPanel Orientation="Horizontal" Margin="100,10">
+				<TextBlock Text="Monthly Repayment $: "/>
+				<TextBox x:Name="MonthlyRepaymentTextBox" Width="200" Margin="10,0,0,0" IsReadOnly="True"/>
+			</StackPanel>
+			<!--  8 line：Calculate button -->
+			<Button Content="Calculate" Click="CalculateButton_Click" Width="100" Margin="200,10,10,0"/>
+
+			<!--  9 line：Exit button -->
+			<Button Content="Exit" Click="ExitButton_Click" Width="100" Margin="200,10,10,0"/>
+
+		</StackPanel>
+	</Grid>
+</Page>
