@@ -47,5 +47,10 @@ namespace Calculator
 		{
 			System.Environment.Exit(0);
 		}
-	}
+
+		private void tripButton_Click(object sender, RoutedEventArgs e)
+		{
+			messageTextBlock.Text = "Trip calculator C# code will be developed later";
+		}
+    }
 }

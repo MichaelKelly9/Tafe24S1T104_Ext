@@ -26,7 +26,9 @@
 			<Button x:Name="mathsCalcButton" Content="Maths Calculator" Click="mathsCalcButton_Click"/>
 			<Button x:Name="mortgageCalcButton" Content="Mortgage Calculator" Click="MortgageCalcButton_Click" />
 			<Button x:Name="currecnyConvertButton" Content="Currency Calculator" Click="currecnyConvertButton_Click"/>
+			<Button x:Name="tripButton" Content="Trip" Click="tripButton_Click"/>
 			<Button x:Name="exitButton" Content="Exit" Click="exitButton_Click"/>
+			<TextBlock x:Name="messageTextBlock" TextAlignment="Center" Text=""/>
 		</StackPanel>
 	</Grid>
 </Page>
