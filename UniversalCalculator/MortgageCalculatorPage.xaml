@@ -9,7 +9,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
 	<Grid>
-		<StackPanel VerticalAlignment="center">
+		<StackPanel VerticalAlignment="center" Background="Beige">
 			<TextBlock Text="Mortgage Calculator"  Margin="100,10" FontSize="45" Foreground="Blue" FontWeight="Bold"/>
 
 			<StackPanel Orientation="Horizontal" Margin="100,10">
@@ -51,7 +51,7 @@
 			<!--  8 line：Calculate button -->
 			<Button Content="Calculate" Click="CalculateButton_Click" Width="100" Margin="200,10,10,0"/>
 
-			<!--  9 line：Exit button -->
+			<!--  9 line：Exit button - adding remark for screenshots as buttong coded in previous step-->
 			<Button Content="Exit" Click="ExitButton_Click" Width="100" Margin="200,10,10,0"/>
 
 		</StackPanel>

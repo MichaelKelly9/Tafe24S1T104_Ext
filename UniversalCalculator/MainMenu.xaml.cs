@@ -27,6 +27,7 @@ namespace Calculator
 			this.InitializeComponent();
 		}
 
+		//Button naivgation was coded in previous step, adding remarks for screenshots
 		private void MortgageCalcButton_Click(object sender, RoutedEventArgs e)
 		{
 			Frame.Navigate(typeof(MortgageCalculatorPage));

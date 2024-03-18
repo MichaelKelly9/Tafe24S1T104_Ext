@@ -12,7 +12,7 @@
 		<StackPanel HorizontalAlignment="Center" Background="Beige">
 			<TextBlock x:Name="headingTextBlock" Text="Currency Conversion Calculator" FontSize="45" Foreground="Blue" FontWeight="Bold" Margin="10"/>
 
-			<!--Fields Stack Panel-->
+			<!--Fields Stack Panel containing textblock field for input and comboboxes for currency selection-->
 			<StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
 				<StackPanel Margin="10">
 					<TextBlock x:Name="amountTextBlock" Text="Amount $" FontSize="25" FontWeight="Bold"/>
@@ -38,7 +38,7 @@
 				</StackPanel>
 			</StackPanel>
 
-			<!--Conversion Text Stack Panel-->
+			<!--Conversion Text Stack Panel containing fields for converted data-->
 			<StackPanel HorizontalAlignment="Center" Width="600">
 				<StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
 					<TextBlock x:Name="amountequalsTextBlock" Text="" Margin="10,10,0,10" FontSize="15" FontWeight="Bold"/>
@@ -50,7 +50,7 @@
 				</StackPanel>
 			</StackPanel>
 
-			<!--Buttons Stack Panel-->
+			<!--Buttons Stack Panel - adding remark for screenshots as coded in previous step-->
 			<StackPanel>
 				<Button x:Name="conversionButton" Content="Currency Conversion" HorizontalAlignment="Center" Margin="10" FontSize="20" Click="conversionButton_Click"/>
 				<Button x:Name="exitButton" Content="Exit" HorizontalAlignment="Center" Margin="10" FontSize="20" Click="exitButton_Click"/>
